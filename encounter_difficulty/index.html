@@ -1,0 +1,492 @@
+
+<!DOCTYPE html>
+<!--  by Unbat / Igor Nedosekov / unbat / 2017 - 2018 -->
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Калькулятор сложности боевой сцены D&D 5</title>
+	<meta name="description" content="">
+	<meta name="keywords" content=""> 
+	<meta property="og:title" content="Калькулятор сложности боевой сцены D&D 5"/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:url" content="http://dungeon.su/encounter_difficulty/"/>
+	<meta property="og:image" content="http://dungeon.su/img/thumbnail.jpg
+">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="canonical" href="index.html"/>
+	<link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+	<link rel="icon" href="../img/favicon.png" type="image/png">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i&subset=cyrillic-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+		<link rel="stylesheet" href="../css/encounter_difficulty.css" type="text/css">	
+	<meta name="yandex-verification" content="ad850fa96eef28f1" />
+			<script src="https://vk.com/js/api/openapi.js?139" type="text/javascript"></script>
+	</head>
+<body>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-96210936-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	<script type="text/javascript">VK.init({apiId:5903803,onlyWidgets: true});</script>
+
+<header>
+	<div class="cont">
+		<div class="title">
+			<h2><a href="../index.html">Dungeon.su</a></h2><span>|</span><h1><a href="index.html" class="page-category">Калькулятор сложности боевой сцены D&D 5</a></h1>		</div>
+	</div>
+</header>
+
+
+<div class="toUp"></div>
+
+<main>
+	<div class="cont">
+		
+		<!-- LEFT COLUMN -->
+		<div class="menu_hamb" title="Меню"><span></span><span></span><span></span></div>
+		<div class="left">
+			
+			<section class="block block_100">
+				<div>
+
+					<ul class="menu menu-main">
+						
+						<li class="level-1">
+							<a href="../index.html">Главная</a>
+						</li>
+						
+						<li class="level-1" data-menu="menu-main-1"> 
+							<a href="javascript:void(0);" class="parent">Справочники</a>
+							<ul>
+								<li class="level-2">
+									<a href="../spells/index.html" class="iconed">
+										<span class="icon-link_spells link-icon"></span>
+										Заклинания
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="../items/index.html" class="iconed">
+										<span class="icon-link_items link-icon"></span>
+										Магические предметы
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="../bestiary/index.html" class="iconed">
+										<span class="icon-link_bestiary link-icon"></span>
+										Бестиарий
+									</a>
+								</li>
+							</ul>
+						</li>
+						
+						<li class="level-1" data-menu="menu-main-2">
+							<a href="javascript:void(0);" class="parent">Инструменты</a>
+							<ul>
+								<li class="level-2">
+									<a href="../loot/index.html" class="iconed">
+										<span class="icon-link_loot link-icon"></span>
+										Генератор добычи
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="../scrolls/index.html" class="iconed">
+										<span class="icon-link_scrolls link-icon"></span>
+										Генератор свитков
+									</a>
+								</li>
+								
+								<li class="level-2">
+									<a href="index.html" class="iconed">
+										<span class="icon-link_encounter_difficulty link-icon"></span>
+										Сложность боя
+									</a>
+								</li>								
+							</ul>
+						</li>
+						
+						<li class="level-1" data-menu="menu-main-3">
+							<a href="javascript:void(0);" class="parent">Статьи</a>
+							<ul>
+								<li class="level-2">
+									<a href="../articles/index.html">Статьи</a>
+								</li>
+								<li class="level-3">
+									<a href="../articles/bestiary/index.html">Бестиарий</a>
+								</li>
+								<li class="level-3">
+									<a href="../articles/mechanics/index.html">Игровые механики</a>
+								</li>
+								<li class="level-3">
+									<a href="../articles/race/index.html">Расы</a>
+								</li>
+								<li class="level-3">
+									<a href="../articles/class/index.html">Классы</a>
+								</li>
+								<li class="level-3">
+									<a href="../articles/inventory/index.html">Инвентарь</a>
+								</li>
+								<li class="level-3">
+									<a href="../articles/news/index.html">Новости</a>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+					
+				</div>
+			</section>
+	
+	
+		<section class="block block_100">
+			<div>
+			
+				<div class="ya-search">
+					<div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'/search/','arrow':false,'bg':'transparent','fontsize':14,'fg':'#000000','language':'ru','logo':'rw','publicname':'Поиск по сайту Dungeon.su','suggest':true,'target':'_self','tld':'ru','type':2,'usebigdictionary':true,'searchid':2294916,'input_fg':'#141414','input_bg':'#1d262d','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту','input_placeholderColor':'#141414'}">
+						<form action="https://yandex.ru/search/site/" method="get" target="_self" accept-charset="utf-8"  class="search">
+							<input type="hidden" name="searchid" value="2294916"/>
+							<input type="hidden" name="l10n" value="ru"/>
+							<input type="hidden" name="reqenc" value="utf-8"/>
+							<input type="search" name="text" value=""/>
+							<input type="submit" value="Найти" style="cursor:pointer"/>
+						</form>
+					</div>
+					<style type="text/css">.ya-page_js_yes .ya-site-form_inited_no{display:none}#ya-site-form0 .ya-site-form__search-input{padding:0}</style>
+					<script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+				</div>
+				
+			</div>
+		</section>
+		
+ 	
+			<section class="block block_100">
+				<div>
+
+					<ul class="menu menu-main">
+
+						<li class="level-1" data-menu="menu-user-1">
+							<a href="javascript:void(0);" class="parent">Пользователь</a>
+							<ul>
+																<li class="level-2">
+									<a href="../index.html" class="iconed need-auth">
+										<span class="icon-link_favorite link-icon"></span>
+										Избранное
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="../index.html" class="iconed need-auth">
+										<span class="icon-link_workshop link-icon"></span>
+										Мастерская
+									</a>
+								</li>
+								
+								<li class="level-2">
+									<a href="../settings/index.html" class="iconed">
+										<span class="icon-link_settings link-icon"></span>
+										Настройки
+									</a>
+								</li>
+								
+																
+								
+																<li class="level-2 form-auth">
+									<form method="post" action="/login/auth/?from=%2Fencounter_difficulty%2F">
+										<div class="r">
+											<div class="block-4">
+												<input type="text" name="login" placeholder="Логин" required>
+											</div>
+											<div class="block-4">
+												<input type="password" name="pass" placeholder="*****" required>
+											</div>
+										</div>
+										<div class="auth-menu-buttons">
+											<input type="submit" class="button" value="Войти">
+											<a href="http://dungeon.su/login/vk/?from=/encounter_difficulty/" title="Войти через Вконтакте" class="social-auth">
+												<span class="icon-link_vk"></span>
+											</a>
+											<a href="http://dungeon.su/login/fb/?from=/encounter_difficulty/" title="Войти через Facebook" class="social-auth">
+												<span class="icon-link_fb"></span>
+											</a>
+											<a href="http://dungeon.su/login/ya/?from=/encounter_difficulty/" title="Войти через Яндекс" class="social-auth">
+												<span class="icon-link_ya"></span>
+											</a>
+										</div>
+									</form>
+								</li>
+								<li class="level-2">
+									<a href="../registration/index.html">Регистрация</a>
+								</li>
+																
+							</ul>
+						</li>
+						
+
+						
+					</ul>
+					
+				</div>
+			</section>
+	
+	
+				<section class="block block_100">
+					<div>
+
+					<ul class="menu menu-main">
+						
+						<li class="level-1" data-menu="menu-friends-1"> 
+							<a href="javascript:void(0);" class="parent">Наши друзья</a>
+							<ul class="partners-links">
+								<li class="level-2">
+									<a href="http://phantom-studio.ru/?partner=dungeon.su" target="_blank" title="Cтудия фэнтези «Phantom». Перевод литературы по настольным ролевым играм" class="iconed">
+										<span class="icon-link_phantom link-icon"></span>
+										Студия «Phantom»
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://vk.com/dnd_for_all?partner=dungeon.su" target="_blank" title="Dungeons & Dragons для всех! Группа для истинных ценителей D&D!" class="iconed">
+										<span class="icon-link_dnd_for_all link-icon"></span>
+										D&D для всех
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://vk.com/mastademic?partner=dungeon.su" target="_blank" title="Мастер Демик. Разработка оффлайн инструментов для мастеров D&D" class="iconed">
+										<span class="icon-link_master_helper link-icon"></span>
+										Мастер Демик
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://vk.com/dndporusski?partner=dungeon.su" target="_blank" title="D&D по-русски" class="iconed">
+										<span class="icon-link_dnd_po_russki link-icon"></span>
+										D&D по-русски
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://vk.com/sleepingmanticora?partner=dungeon.su" target="_blank" title="Клуб настольных ролевых игр. г. Королёв" class="iconed">
+										<span class="icon-link_manticora link-icon"></span>
+										Спящая Мантикора
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://www.youtube.com/channel/UCEDRLNTs-Fp3AZfxveT8d3w/?partner=dungeon.su" target="_blank" title="Описание мира Forgotten Realms" class="iconed">
+										<span class="icon-link_lore link-icon"></span>
+										Lore
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://www.youtube.com/channel/UCVl0HbZOsQyVrXNes6u4rnQ?partner=dungeon.su" target="_blank" title="Уютное Газебо" class="iconed">
+										<span class="icon-link_gazebo link-icon"></span>
+										Уютное Газебо
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://vk.com/livingroomstudio?partner=dungeon.su" target="_blank" title="LivingRoomStudio | Dungeons&Dragons" class="iconed">
+										<span class="icon-link_lrs link-icon"></span>
+										LivingRoomStudio
+									</a>
+								</li>
+								<li class="level-2">
+									<a href="https://vk.com/rrules?partner=dungeon.su" target="_blank" title="Random Rules I НРИ I Dungeons & Dragons" class="iconed">
+										<span class="icon-link_rr link-icon"></span>
+										Random Rules
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+	
+					</ul>
+					
+				</div>
+			</section>
+	
+	
+				<section class="block block_100">
+					<div>
+
+					<ul class="menu menu-main">
+
+						<li class="level-1" data-menu="menu-second-2"> 
+							<a href="javascript:void(0);" class="parent">Разное</a>
+							<ul>
+								<li class="level-2">
+									<a href="../contacts/index.html" title="Контакты, обратная связь" class="iconed">
+										<span class="icon-link_contacts link-icon"></span>
+										Контакты
+									</a>
+								</li>
+																<li class="level-2">
+									<a href="../support/index.html" title="Помощь сайту золотой монеткой" class="iconed">
+										<span class="icon-link_site_help link-icon"></span>
+										Помощь сайту
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						
+												
+					</ul>
+					
+				</div>
+			</section>
+	
+		</div>
+		<!---->
+		
+		<!-- CENTRAL COLUMN -->
+		<div class="center">
+			<div class="row">
+				
+				<section class="block block_100">
+					<div class="paper-1 card">
+						<div class="card-wrapper">
+							<div class="card-header">
+								<h2 class="card-title">
+									Калькулятор сложности боевой сцены
+								</h2>
+							</div>
+							<div class="card-body">
+								<ul class="params">
+									<li>
+										<p>
+											Сложность боевой сцены базируется на количестве и уровне игровых персонажей и их противников. 
+											Данный раздел предназначен для подсчета сложности боя и подбора противников. 
+											Механики расчетов подробно описаны с статье «<a href="../articles/mechanics/119-slozhnost_boevoj_stseny/index.html" target="_blank">Сложность боевой сцены</a>».
+										</p>
+									</li>
+									<li class="calc">
+										<div class="part">
+											<h3 class="part-title">Игровые персонажи</h3>
+											<div class="r">
+												<div class="block-2">
+													<input type="text" placeholder="Кол-во" class="player" title="Количество игроков" id="player_character_count">
+												</div>
+												<div class="block-2">
+													<input type="text" placeholder="Уровень" class="player" title="Уровень персонажей игроков" id="player_character_level" pattern="[0-9]{1,2}">
+												</div>
+												<div class="block-1">
+													<button title="Добавить" onclick="addRow('player');">+</button>
+												</div>
+											</div>
+											<ul id="pc" class="characters"></ul>
+										</div>
+										<script>var dangerLength = 34; var danger = {"0":"10","1/8":"25","1/4":"50","1/2":"100","1":"200","2":"450","3":"700","4":"1100","5":"1800","6":"2300","7":"2900","8":"3900","9":"5000","10":"5900","11":"7200","12":"8400","13":"10000","14":"11500","15":"13000","16":"15000","17":"18000","18":"20000","19":"22000","20":"25000","21":"33000","22":"41000","23":"50000","24":"62000","25":"75000","26":"90000","27":"105000","28":"120000","29":"135000","30":"155000"};</script>										<div class="part">
+											<h3 class="part-title">Персонажи мастера</h3>
+											<div class="r">
+												<div class="block-5">
+													<div class="live-search">
+														<input type="text" name="search" class="master" placeholder="Монстр" id="master_character" title="Монстр из бестиария" oninput="liveSearchRequest('difficulty','bestiary',$(this).val(),$(this).next())" autocomplete="off">
+														<ul></ul>
+													</div>
+												</div>
+												<div class="block-1">
+													<input type="text" placeholder="ПО" class="master" title="Показатель опасности" id="master_character_danger" oninput="formatDanger($(this));">
+												</div>
+												<div class="block-2">
+													<input type="text" placeholder="Кол-во" class="master" title="Количество монстров" id="master_character_count">
+												</div>
+												<div class="block-1">
+													<button title="Добавить" onclick="addRow('master');">+</button>
+												</div>
+											</div>
+											<ul id="mc" class="characters"></ul>
+										</div>
+									</li>
+									<li class="results">
+										<div class="part">
+											<h3 class="part-title">Пороговые значения для группы</h3>
+											<div class="difficulty" id="steps">
+												<div class="diff-1">Легко<span>0</span></div>
+												<div class="diff-2">Средне<span>0</span></div>
+												<div class="diff-3">Сложно<span>0</span></div>
+												<div class="diff-4">Смертельно<span>0</span></div>
+											</div>
+										</div>
+										<div class="part">
+											<h3 class="part-title">Параметры боевой сцены</h3>
+											<div id="factor">
+												Добавьте персонажей мастера.
+											</div>
+										</div>
+										<div class="part">
+											<h3 class="part-title">Рекомендуемые противники</h3>
+											<div id="advisable">
+												Добавьте игровых персонажей.
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="r">
+											<div class="block-2">
+												<button onclick="clearAll();">Сброс</button>
+											</div>
+										</div>
+									</li>
+									<li class="subsection-separator"></li>
+									<li class="subsection">
+										<h3 class="subsection-title">Помощь</h3>
+										<p><strong>1.</strong> Введите количество игроков и уровень их персонажей. Если уровни персонажей отличаются, повторите операцию несколько раз.</p>
+										<p><strong>2.</strong> При добавлении персонажей начнут обновляться <strong>пороговые значения</strong> сложности и <strong>параметры боевой сцены</strong>, зависящие от размера отряда, а так же <strong>рекомендуемые противники.</strong></p>
+										<p>
+											<strong>3.</strong> Добавляя персонажей мастера, можно выбрать из выпадающего списка монстра из бестиария, тогда его показатель опасности автоматически подставится в форму добавления. 
+											Остается только добавить количество монстров. Если среди противников разные монстры, то операцию надо повторить несколько раз.<br>
+										</p>
+										<p>
+											<strong>4.</strong> На этом этапе появится <strong>множитель сложности</strong>, зависящий от количества монстров и <strong>сложность боевой сцены</strong> учитывая все множители сложности.<br>
+											Если добавлены игровые персонажи, то выделится текущее <strong>пороговое значение</strong> сложности боевой сцены для группы игроков.
+										</p>
+										<p>
+											<strong>5.</strong> Помните, что если в группе монстров есть слабые, сильно отстающие от среднего уровня монстры, они сильно испортят статистику боя и их лучше не учитывать при создании боевой сцены.<br>
+											Например если у вас в бою участвует Химера с ПО <strong>6</strong> и 5 Гоблинов с ПО <strong>1/4</strong>, то гоблинов лучше не учитывать, так как они усложнят бой по статистике в 2 раза а по факту вряд ли 
+											что-то смогут противопоставить персонажам, сражающимся с сильной и опасной химерой.<br>
+											Каждый мастер сам определяет, каких монстров не учитывать в боевой сцене.
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+						<div class="social-menu">
+							<ul>
+								<li class="share-text">Поделиться:</li>
+								<li><a href="https://www.facebook.com/sharer.php?u=http://dungeon.su/encounter_difficulty/" class="icon-card_menu_fb round share" title="Поделиться в Facebook" target="_blank"></a></li>
+								<li><a href="http://vk.com/share.php?url=http://dungeon.su/encounter_difficulty/" class="icon-card_menu_vk round share" title="Поделиться в Вконтакте" target="_blank"></a></li>
+							</ul>
+						</div>				</section>
+				
+				<section class="block block_100" id="vk_comments"></section><script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit:10});</script>
+			</div>
+		</div>	
+		<!---->
+	</div>
+</main>
+
+
+
+<footer>
+	<div class="cont">
+		<a href="../index.html">Dungeon.su</a> &nbsp;/&nbsp; <a href="http://dnd.su">DnD.su</a> &nbsp;© 2017 - 2018. | По&nbsp;вопросам сотрудничества: <a href="javascript:void(0)" class="show-email">показать&nbsp;email</a>
+	</div>
+</footer>
+
+<div class="popup-gray"></div>
+<div class="popup">
+	<button class="popup-close"></button>
+	<div class="popup-content"></div>
+</div>
+
+
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/encounter_difficulty.js"></script>
+
+<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter42419409 = new Ya.Metrika({ id:42419409, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/42419409" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+</body>
+</html>

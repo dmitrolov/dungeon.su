@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+
+Disallow: /admin/index.php
+Disallow: /admin/login/
+Disallow: /poligon/
+Disallow: /test/
+
+Sitemap: http://dungeon.su/sitemap.xml
+
+Host: dungeon.su

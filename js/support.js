@@ -1,0 +1,1 @@
+$(window).load(function(){"undefined"!=typeof yaCounter42419409&&yaCounter42419409.reachGoal("support")});
